@@ -54,7 +54,7 @@ int current_color = 0;
 
 void setup() {
   M5.begin();
-  M5.Display.setRotation(180);
+  M5.Display.setRotation(2);
   avatar.init();
 
   init_pcnt();
